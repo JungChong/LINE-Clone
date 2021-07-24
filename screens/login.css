@@ -1,0 +1,60 @@
+.login-header {
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-header-massage {
+  margin: -15px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-header-massage span h1 {
+  font-size: 35px;
+}
+
+.login-header-massage > span {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.login-header-massage span:nth-child(2) {
+  margin-top: 15px;
+  opacity: 0.4;
+}
+
+.login-header-massage span:last-child {
+  margin-top: 30px;
+  opacity: 0.4;
+}
+
+.login-header-massage h1 {
+  margin-left: -16px;
+  margin-bottom: 5px;
+}
+
+.login-header span:last-child {
+  opacity: 0.5;
+}
+
+.fa-apple {
+  margin-right: 15px;
+}
+
+.fa-facebook {
+  margin-right: 15px;
+}
+
+.welcome-button__login > a {
+  margin-bottom: 15px;
+}
+
+.welcome-button__login {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 200px;
+}

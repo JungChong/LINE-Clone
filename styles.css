@@ -8,10 +8,12 @@
 /* screen */
 @import "screens/welcome-main.css";
 @import "screens/login.css";
+@import "screens/index.css";
 
 body {
   color: white;
   background-color: black;
+  height: 1000vh;
 }
 
 h1 {

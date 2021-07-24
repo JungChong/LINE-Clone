@@ -34,6 +34,6 @@ h1 {
   justify-content: center;
 }
 
-.user-button:hover {
-  border-radius: 50px;
+.welcome-button > a {
+  margin-bottom: 15px;
 }

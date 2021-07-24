@@ -1,15 +1,35 @@
+.welcome-button {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .user-button {
   width: 350px;
-  height: 65px;
+  height: 60px;
   background-color: rgb(6, 198, 85);
   color: white;
   border-style: none;
   border-radius: 3px;
   font-size: 20px;
-  transition: border-radius 1s ease-in-out;
+  transition: border-radius 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .join-button {
-  background-color: black;
+  background-color: gray;
+}
+
+.apple-button {
+  background-color: gray;
+}
+
+.facebook-button {
+  background-color: rgb(25, 119, 241);
+}
+
+.user-button:hover {
+  border-radius: 20px;
+  opacity: 0.8;
 }
